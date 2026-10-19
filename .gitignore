@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+.pnp
+.pnp.js
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/*/__pycache__/
+
+# Build & runtime generated outputs
+dist/
+build/
+frontend/dist/
+frontend/public/current_turn.mp4
+*.mp4
+
+# Logs
+logs/
+.services.pid
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment & local settings
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.cloudrun.yaml
+
+# OS files
+.DS_Store
+Thumbs.db
